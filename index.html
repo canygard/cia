@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link href="cia-theme.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Protected Page</title>
+</head>
+<body>
+
+	<header>
+<div class="logo">CIA</div>
+	<h1>Classified Government CIA Briefing</h1>
+	<h2>(This is an official government website)</h2>
+
+	</header>
+	<article>
+	<p>Agent,</p>
+	<p>You've been assigned a mission by Director Andrew Smith. To view your assignment, please enter your password to keep our beautiul, red, white, and blue nation secure. </p>
+	</article>
+<div class="pass">
+<label for="password">Enter Password:</label>
+<input type="password" id="password">
+<button onclick="checkPassword()">Submit</button>
+	</div>
+	
+	<footer>
+	End of page.
+	</footer>
+<script>
+    function checkPassword() {
+        var enteredPassword = document.getElementById("password").value;
+        
+        if (enteredPassword === "government") { // Replace "yourpassword" with your desired password
+            window.location.href = "mission.html";
+        } else {
+            alert("Wrong. You're definitely not a real government agent.");
+        }
+    }
+</script>
+
+</body>
+</html>

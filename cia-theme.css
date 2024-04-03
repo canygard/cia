@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/* Base styles for all screens */
+body {
+    font-size: 16px; /* Base font size */
+    background-color: white;
+    margin: 0 auto;
+	align-items: center;
+}
+
+.logo {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    color: transparent;
+    width: 20%; /* Relative width */
+    padding-bottom: 20%; /* Maintain aspect ratio */
+    background-image: url("cia-logo.png");
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    background-color: navy;
+    margin: 0 auto;
+    padding: 1rem;
+    color: white;
+}
+
+button {
+    display: block;
+    width: 30%; /* Relative width */
+    height: 3rem; /* Fixed height */
+    background-color: red;
+    color: white;
+    border-width: 2px;
+    margin: 1rem auto;
+    font-size: 1rem; /* Relative font size */
+}
+
+input {
+    width: 50%; /* Relative width */
+    height: 2.5rem; /* Fixed height */
+    margin: 1rem auto;
+    border-width: 2px;
+}
+
+.pass {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    font-family: arial, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-size: 1rem; /* Relative font size */
+    margin: 0.5rem auto;
+}
+
+article {
+    display: block;
+    width: 90%; /* Relative width */
+    margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+label {
+    font-family: arial, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+footer {
+	
+	display: block;
+	height: 100px;
+	background-image: url("footer.jpg");
+	background-size: contain;;
+}
+
+iframe {
+    margin: 20px auto; /* Center horizontally */
+    display: block;    /* Make it a block-level element */
+}
