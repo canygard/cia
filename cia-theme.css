@@ -84,3 +84,10 @@ iframe {
     margin: 20px auto; /* Center horizontally */
     display: block;    /* Make it a block-level element */
 }
+
+#secret {
+	background-image: url("topsecret.webp");
+	background-size: cover;
+	background-opacity: 50%;
+	
+}
